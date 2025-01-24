@@ -4,35 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla Weather App</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." />
-        <input type="submit" value="search" />
-      </form>
-    </header>
-    <main>
-      <h1>Antwerp</h1>
-      <div>
-        <p>
-          Friday 14:56, rain <br />
-          Humidity 82%, Wind 2km/h
-        </p>
-      </div>
-      <div>🌧️8°C</div>
-    </main>
-    <footer>
-      Coded by <a href="https://github.com/DorienC" target="_blank">Dora</a>, is
-      <a
-        href="https://app.netlify.com/sites/dora-vanilla-weather-app/overview"
-        target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and hosted on
-      <a href="https://dora-vanilla-weather-app.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." />
+          <input type="submit" value="search" />
+        </form>
+      </header>
+      <main>
+        <h1>Antwerp</h1>
+        <div>
+          <p>
+            Friday 14:56, rain <br />
+            Humidity 82%, Wind 2km/h
+          </p>
+        </div>
+        <div>🌧️8°C</div>
+      </main>
+      <footer>
+        Coded by <a href="https://github.com/DorienC" target="_blank">Dora</a>,
+        is
+        <a
+          href="https://app.netlify.com/sites/dora-vanilla-weather-app/overview"
+          target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and hosted on
+        <a href="https://dora-vanilla-weather-app.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
