@@ -15,24 +15,34 @@
   <body>
     <div class="weather-app">
       <header>
-        <form>
-          <input type="search" placeholder="Enter a city..." />
-          <input type="submit" value="search" />
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            class="search-form-input"
+          />
+          <input type="submit" value="search" class="search-form-button" />
         </form>
       </header>
       <main>
-        <h1>Antwerp</h1>
-        <div>
-          <p>
-            Friday 14:56, rain <br />
-            Humidity 82%, Wind 2km/h
-          </p>
+        <div class="weather-app-data">
+          <div>
+            <h1 class="weather-app-city">Antwerp</h1>
+            <p class="weather-app-details">
+              Friday 14:56, rain <br />
+              Humidity: <strong>82% </strong>, Wind: <strong>2km/h</strong>
+            </p>
+          </div>
+          <div class="weather-app-temperature-container">
+            <div class="weather-app-icon">🌧️</div>
+            <div class="weather-app-temperature">8</div>
+            <div class="weather-app-unit">°C</div>
+          </div>
         </div>
-        <div>🌧️8°C</div>
       </main>
       <footer>
-        Coded by <a href="https://github.com/DorienC" target="_blank">Dora</a>,
-        is
+        This project is coded by
+        <a href="https://github.com/DorienC" target="_blank">Dora</a>, is
         <a
           href="https://app.netlify.com/sites/dora-vanilla-weather-app/overview"
           target="_blank"
